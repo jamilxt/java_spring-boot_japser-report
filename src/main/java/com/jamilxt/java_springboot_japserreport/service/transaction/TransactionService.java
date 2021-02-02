@@ -1,4 +1,4 @@
-package com.jamilxt.java_springboot_japserreport.service;
+package com.jamilxt.java_springboot_japserreport.service.transaction;
 
 import com.jamilxt.java_springboot_japserreport.model.transaction.Transaction;
 import org.springframework.stereotype.Service;

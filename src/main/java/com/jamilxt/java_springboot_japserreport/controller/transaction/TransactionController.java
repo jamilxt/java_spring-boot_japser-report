@@ -1,7 +1,7 @@
 package com.jamilxt.java_springboot_japserreport.controller.transaction;
 
 import com.jamilxt.java_springboot_japserreport.model.transaction.Transaction;
-import com.jamilxt.java_springboot_japserreport.service.TransactionService;
+import com.jamilxt.java_springboot_japserreport.service.transaction.TransactionService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
