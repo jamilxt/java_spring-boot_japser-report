@@ -3,10 +3,14 @@
 ### Reference Documentation
 Run the application.
 Then, Export:
-* PDF: [http://localhost:8080/reports/transactions/download?exportType=PDF](http://localhost:8080/reports/transactions/download?exportType=PDF)
-* EXCEL: [http://localhost:8080/reports/transactions/download?exportType=Excel](http://localhost:8080/reports/transactions/download?exportType=EXCEL)
-* CSV: [http://localhost:8080/reports/transactions/download?exportType=CSV](http://localhost:8080/reports/transactions/download?exportType=CSV)
-* DOCX: [http://localhost:8080/reports/transactions/download?exportType=DOCX](http://localhost:8080/reports/transactions/download?exportType=DOCX)
+* PDF: [http://localhost:8080/reports/transactions/download?exportType=PDF](http://localhost:8080/reports/transactions/download?exportType=PDF) <br><br>
+![image](https://user-images.githubusercontent.com/18072164/106577485-9bcf7280-6568-11eb-925e-938f188ca2b1.png) <br><br>
+* EXCEL: [http://localhost:8080/reports/transactions/download?exportType=Excel](http://localhost:8080/reports/transactions/download?exportType=EXCEL) <br><br>
+![image](https://user-images.githubusercontent.com/18072164/106577645-d0432e80-6568-11eb-9063-5fd02df2bc0c.png) <br><br>
+* CSV: [http://localhost:8080/reports/transactions/download?exportType=CSV](http://localhost:8080/reports/transactions/download?exportType=CSV) <br><br>
+![image](https://user-images.githubusercontent.com/18072164/106577739-ee109380-6568-11eb-87ef-8ae5d7f7d50e.png) <br><br>
+* DOCX: [http://localhost:8080/reports/transactions/download?exportType=DOCX](http://localhost:8080/reports/transactions/download?exportType=DOCX) <br><br>
+![image](https://user-images.githubusercontent.com/18072164/106577866-14ceca00-6569-11eb-85d8-08bd5d80a115.png) <br><br>
 
 ### Download [Jaspersoft Studio](https://community.jaspersoft.com/project/jaspersoft-studio) to modify the template (file with .jrxml extension) as you like.
 #### Templates are: 
