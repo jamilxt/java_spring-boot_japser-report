@@ -7,7 +7,7 @@
               leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isSummaryWithPageHeaderAndFooter="true"
               uuid="cb94b4ca-f40d-4269-9541-a992393b9262">
     <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
-    <style name="Title" forecolor="#FFFFFF" backcolor="#800080" fontSize="50" isBold="false" mode="Opaque"/>
+    <style name="Title" forecolor="#FFFFFF" backcolor="#514C6E" fontSize="50" isBold="false" mode="Opaque"/>
     <subDataset name="loanRepaymentHistoryData" uuid="1ed43f20-b075-4825-bb40-941c03926edd">
         <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
         <queryString>
@@ -42,7 +42,7 @@
     <title>
         <band height="79" splitType="Stretch">
             <rectangle>
-                <reportElement x="-20" y="-20" width="842" height="80" backcolor="#800080"
+                <reportElement x="-20" y="-20" width="842" height="80" backcolor="#514C6E"
                                uuid="ba23ee47-fdaf-40f1-85d4-32b60ef86dd1" mode="Opaque"/>
                 <graphicElement>
                     <pen lineWidth="0.0" lineColor="rgba(0, 0, 0, 0.0)"/>
@@ -108,7 +108,7 @@
         <band height="30" splitType="Stretch">
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="353" y="0" width="50" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="e1685272-bfb3-4817-bd02-ce800b9ea577">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="5f1c3336-49b2-4108-a923-85a341b6c863"/>
@@ -129,7 +129,7 @@
             </textField>
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="631" y="0" width="50" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="eaa6e0b0-1c8d-40f1-a25f-245a419adeac">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="c81fbf5f-0c64-4e04-9438-efaa12b20c43"/>
@@ -150,7 +150,7 @@
             </textField>
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="681" y="0" width="50" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="03763d9d-703c-4b8e-8786-7cec9cc73cd6">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="45ee3125-7784-4af2-8d19-2b8e0bc01cc2"/>
@@ -171,7 +171,7 @@
             </textField>
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="731" y="0" width="50" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="c1aa22ac-2e8a-4ee2-ab37-2203daf09975">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="45ee3125-7784-4af2-8d19-2b8e0bc01cc2"/>
@@ -192,7 +192,7 @@
             </textField>
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="293" y="0" width="60" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="62a84296-e38b-4dd0-a079-f63174188408">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="f48e6f79-ab36-4d9d-9bdf-9b487fe45cc9"/>
@@ -213,7 +213,7 @@
             </textField>
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="403" y="0" width="90" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="be892040-65ea-4a39-b8a1-40cfb62ee240">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="c81fbf5f-0c64-4e04-9438-efaa12b20c43"/>
@@ -234,7 +234,7 @@
             </textField>
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="583" y="0" width="48" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="6337169d-3ac2-48d6-bb73-cf46fd02fb79">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="45ee3125-7784-4af2-8d19-2b8e0bc01cc2"/>
@@ -255,7 +255,7 @@
             </textField>
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="493" y="0" width="90" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="03927c0e-b852-4e4b-a915-1a56604b1223">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="45ee3125-7784-4af2-8d19-2b8e0bc01cc2"/>
@@ -276,7 +276,7 @@
             </textField>
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="229" y="0" width="64" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="b14a6470-3ea0-4ebb-acf0-2eec791be150">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="45ee3125-7784-4af2-8d19-2b8e0bc01cc2"/>
@@ -297,7 +297,7 @@
             </textField>
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="94" y="0" width="75" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="7f17f074-609f-4806-827d-4aa57891336a">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="5f1c3336-49b2-4108-a923-85a341b6c863"/>
@@ -318,7 +318,7 @@
             </textField>
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="169" y="0" width="60" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="86ad2627-7539-4856-90e4-453830f56ef2">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="c81fbf5f-0c64-4e04-9438-efaa12b20c43"/>
@@ -339,7 +339,7 @@
             </textField>
             <textField textAdjust="StretchHeight" isBlankWhenNull="true">
                 <reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="24" y="0" width="70" height="30"
-                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#800080"
+                               isPrintWhenDetailOverflows="true" forecolor="#FFFFFF" backcolor="#514C6E"
                                uuid="38f81a93-0905-4f7d-8242-369f593a6158">
                     <property name="com.jaspersoft.studio.spreadsheet.connectionID"
                               value="f48e6f79-ab36-4d9d-9bdf-9b487fe45cc9"/>
