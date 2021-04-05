@@ -5,7 +5,7 @@ Run the application.
 Then, Export:
 * PDF: [http://localhost:8080/reports/transactions/download?exportType=PDF](http://localhost:8080/reports/transactions/download?exportType=PDF) <br><br>
 ![image](https://user-images.githubusercontent.com/18072164/106577485-9bcf7280-6568-11eb-925e-938f188ca2b1.png) <br><br>
-* EXCEL: [http://localhost:8080/reports/transactions/download?exportType=Excel](http://localhost:8080/reports/transactions/download?exportType=EXCEL) <br><br>
+* EXCEL: [http://localhost:8080/reports/transactions/download?exportType=EXCEL](http://localhost:8080/reports/transactions/download?exportType=EXCEL) <br><br>
 ![image](https://user-images.githubusercontent.com/18072164/106577645-d0432e80-6568-11eb-9063-5fd02df2bc0c.png) <br><br>
 * CSV: [http://localhost:8080/reports/transactions/download?exportType=CSV](http://localhost:8080/reports/transactions/download?exportType=CSV) <br><br>
 ![image](https://user-images.githubusercontent.com/18072164/106577739-ee109380-6568-11eb-87ef-8ae5d7f7d50e.png) <br><br>
