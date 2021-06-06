@@ -16,4 +16,10 @@ public interface ReportApi {
   @GetMapping(value = "transactions/download")
   ResponseEntity<Void> downloadTransactionReport(@RequestParam(value = "exportType") ExportType exportType,
                                                  HttpServletResponse response) throws IOException, JRException;
+
+  // new endpoint to generate & EXPORT dynamic report
+  @GetMapping(value = "dynamic/transactions/download")
+  ResponseEntity<Void> exportDynamicTransactionReport(@RequestParam(value = "exportType") ExportType exportType,
+                                                 HttpServletResponse response) throws IOException, JRException;
+
 }
