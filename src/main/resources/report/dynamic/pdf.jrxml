@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_Landscape_1" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isSummaryWithPageHeaderAndFooter="true" uuid="cb94b4ca-f40d-4269-9541-a992393b9262">
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+    <style name="Title" mode="Opaque" forecolor="#FFFFFF" backcolor="#800080" fontSize="50" isBold="false"/>
+    <subDataset name="loanRepaymentHistoryData" uuid="1ed43f20-b075-4825-bb40-941c03926edd">
+        <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+        <queryString>
+            <![CDATA[]]>
+        </queryString>
+    </subDataset>
+    <parameter name="title" class="java.lang.String"/>
+    <queryString>
+        <![CDATA[]]>
+    </queryString>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <title>
+        <band height="60" splitType="Stretch">
+            <rectangle>
+                <reportElement mode="Opaque" x="-20" y="-20" width="842" height="80" backcolor="#514C6E" uuid="ba23ee47-fdaf-40f1-85d4-32b60ef86dd1"/>
+                <graphicElement>
+                    <pen lineWidth="0.0" lineColor="rgba(0, 0, 0, 0.0)"/>
+                </graphicElement>
+            </rectangle>
+            <staticText>
+                <reportElement x="691" y="10" width="26" height="20" forecolor="#FFFFFF" uuid="e870bf25-aab7-4cf2-8c0f-6d80756ec3d1">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box rightPadding="4"/>
+                <textElement textAlignment="Left">
+                    <font size="9"/>
+                </textElement>
+                <text><![CDATA[Date:]]></text>
+            </staticText>
+            <textField pattern="EEE dd MMMMM yyyy">
+                <reportElement x="717" y="10" width="91" height="20" forecolor="#FFFFFF" uuid="053f5b1f-cffb-488d-9d06-280916be24ea">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <textElement textAlignment="Left">
+                    <font size="9"/>
+                </textElement>
+                <textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+            </textField>
+            <image hAlign="Center">
+                <reportElement x="316" y="-8" width="170" height="23" forecolor="#FFFFFF" uuid="d469267e-ffe3-4e8f-94fe-382960c3f1fe"/>
+                <imageExpression><![CDATA["images/logo.png"]]></imageExpression>
+            </image>
+            <staticText>
+                <reportElement x="-1" y="30" width="77" height="15" forecolor="#FFFFFF" uuid="1ce3ac12-d385-447f-92f6-be0a0f65f13e">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <textElement>
+                    <font size="9"/>
+                </textElement>
+                <text><![CDATA[www.example.com]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="-1" y="-5" width="35" height="15" forecolor="#FFFFFF" uuid="52318ea9-32a7-497b-9124-282a068362c0">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <textElement>
+                    <font size="9" isBold="false"/>
+                </textElement>
+                <text><![CDATA[Gulshan]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="-1" y="13" width="77" height="15" forecolor="#FFFFFF" uuid="d42121ea-853d-467e-a3f3-9369b1ff9b2b">
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <textElement>
+                    <font size="9"/>
+                </textElement>
+                <text><![CDATA[Dhaka,Bangladesh]]></text>
+            </staticText>
+            <textField isBlankWhenNull="true">
+                <reportElement x="182" y="21" width="439" height="24" forecolor="#FFFFFF" uuid="0531ed2f-cd80-4d2a-a4e9-2f5807b2ebca"/>
+                <textElement textAlignment="Center">
+                    <font size="15" isBold="true"/>
+                </textElement>
+                <textFieldExpression><![CDATA[$P{title}]]></textFieldExpression>
+            </textField>
+        </band>
+    </title>
+    <pageFooter>
+        <band height="24" splitType="Stretch">
+            <textField evaluationTime="Report">
+                <reportElement x="789" y="10" width="21" height="14" uuid="bd875e21-3555-4491-9d23-0894b364d843"/>
+                <textElement textAlignment="Left" verticalAlignment="Middle">
+                    <font size="8" isBold="false"/>
+                </textElement>
+                <textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+            </textField>
+            <textField>
+                <reportElement x="707" y="10" width="79" height="14" uuid="3e0ba871-3e58-48c9-89bf-85dc09aa9bf7"/>
+                <textElement textAlignment="Right" verticalAlignment="Middle">
+                    <font size="8" isBold="false"/>
+                </textElement>
+                <textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+            </textField>
+        </band>
+    </pageFooter>
+</jasperReport>
