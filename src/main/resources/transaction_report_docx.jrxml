@@ -61,7 +61,7 @@
             <image hAlign="Center">
                 <reportElement x="316" y="-8" width="170" height="23" forecolor="#000000"
                                uuid="d469267e-ffe3-4e8f-94fe-382960c3f1fe"/>
-                <imageExpression><![CDATA["logo_.png"]]></imageExpression>
+                <imageExpression><![CDATA["images/logo.png"]]></imageExpression>
             </image>
             <staticText>
                 <reportElement x="0" y="30" width="160" height="15" forecolor="#000000"

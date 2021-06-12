@@ -1,7 +1,7 @@
 package com.jamilxt.java_springboot_japserreport.service.report;
 
+import com.jamilxt.java_springboot_japserreport.domain.report.ExportType;
 import com.jamilxt.java_springboot_japserreport.model.transaction.Transaction;
-import com.jamilxt.java_springboot_japserreport.model.report.ExportType;
 import com.jamilxt.java_springboot_japserreport.service.transaction.TransactionService;
 import net.sf.jasperreports.engine.*;
 import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
