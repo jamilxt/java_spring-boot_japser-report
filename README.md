@@ -1,3 +1,4 @@
+[![Java CI with Maven](https://github.com/jamilxt/java_spring-boot_japser-report/actions/workflows/maven.yml/badge.svg)](https://github.com/jamilxt/java_spring-boot_japser-report/actions/workflows/maven.yml)
 # Jasper Report using Spring Boot (Jave 11, Maven)
 ## Export (PDF, EXCEL, CSV, DOCX)
 ### Reference Documentation
