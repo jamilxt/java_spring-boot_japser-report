@@ -30,3 +30,6 @@ Enjoy!
 * StackOverflow
 
 I didn't find any repo which provides (PDF, EXCEL, CSV, DOCX) all of them at once. Thanks to these^ repo I got the basic idea how to export the report. Thank you very much [iabur](https://github.com/iabur) vai to provide me different template design from your old projects as well as assist me in every way.  
+
+[![Stargazers repo roster for @jamilxt/java_spring-boot_japser-report](http://reporoster.com/stars/jamilxt/java_spring-boot_japser-report)](http://github.com/jamilxt/java_spring-boot_japser-report/stargazers)
+[![Forkers repo roster for @jamilxt/java_spring-boot_japser-report](http://reporoster.com/forks/jamilxt/java_spring-boot_japser-report)](http://github.com/jamilxt/java_spring-boot_japser-report/network/members)
