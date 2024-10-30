@@ -2,7 +2,8 @@ package com.jamilxt.java_springboot_japserreport.domain.report.dynamic;
 
 import com.jamilxt.java_springboot_japserreport.domain.report.ExportType;
 import com.jamilxt.java_springboot_japserreport.domain.report.Report;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletResponse;
+
 import java.io.InputStream;
 
 public class DynamicReport extends Report {

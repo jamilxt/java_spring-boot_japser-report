@@ -5,10 +5,10 @@ import com.jamilxt.java_springboot_japserreport.domain.report.ExportType;
 import com.jamilxt.java_springboot_japserreport.domain.report.dynamic.DynamicReport;
 import com.jamilxt.java_springboot_japserreport.model.transaction.Transaction;
 import com.jamilxt.java_springboot_japserreport.service.report.dynamic.DynamicReportService;
+import jakarta.servlet.http.HttpServletResponse;
 import net.sf.jasperreports.engine.JRException;
 import org.springframework.stereotype.Service;
 
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -70,6 +70,5 @@ public class TransactionService {
 
     dynamicReportService.export(report);
 
-    return;
   }
 }

@@ -17,6 +17,7 @@ mvnw.cmd
 
 ### IntelliJ IDEA ###
 .idea
+logs
 *.iws
 *.iml
 *.ipr
