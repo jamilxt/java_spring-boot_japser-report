@@ -14,7 +14,7 @@
     <name>java_spring-boot_japser-report</name>
     <description>Jasper Report, Export: PDF, EXCEL, DOCX, CSV</description>
     <properties>
-        <java.version>21</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
