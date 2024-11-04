@@ -1,5 +1,6 @@
 package com.jamilxt.java_springboot_japserreport.domain.report;
 
+import jakarta.servlet.http.HttpServletResponse;
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperPrint;
 import net.sf.jasperreports.engine.export.JRCsvExporter;
@@ -11,16 +12,20 @@ import net.sf.jasperreports.export.SimpleOutputStreamExporterOutput;
 import net.sf.jasperreports.export.SimpleWriterExporterOutput;
 import net.sf.jasperreports.export.SimpleXlsxReportConfiguration;
 import org.springframework.http.HttpHeaders;
-import javax.servlet.http.HttpServletResponse;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Collection;
 
-import static com.jamilxt.java_springboot_japserreport.domain.report.ExportType.*;
+import static com.jamilxt.java_springboot_japserreport.domain.report.ExportType.CSV;
+import static com.jamilxt.java_springboot_japserreport.domain.report.ExportType.DOCX;
+import static com.jamilxt.java_springboot_japserreport.domain.report.ExportType.EXCEL;
+import static com.jamilxt.java_springboot_japserreport.domain.report.ExportType.PDF;
 
 public class Report {
   public static final String ATTACHMENT_FILENAME = "attachment;filename=";
@@ -107,7 +112,7 @@ public class Report {
     var formatter = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
     var dateTimeNow = LocalDateTime.now().format(formatter);
     var fileName =
-        URLEncoder.encode(title.replaceAll("[^\\w-]+", "_") + "_" + dateTimeNow, "UTF-8");
+        URLEncoder.encode(title.replaceAll("[^\\w-]+", "_") + "_" + dateTimeNow, StandardCharsets.UTF_8);
     return ATTACHMENT_FILENAME + fileName + exportType.getExtension() + ";";
   }
 }
